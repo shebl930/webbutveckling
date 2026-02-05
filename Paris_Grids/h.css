@@ -1,0 +1,93 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "a b c"
+    "d . e"
+    "f g h "
+    "i txt txt"
+    "j txt txt";
+    margin-left: 25%;
+    margin-right: 25%;
+    
+}
+
+section{
+     min-height: 200px; 
+     
+}
+
+#a{
+
+    grid-area: a;
+    background-image: url(a.jpg);
+    background: cover;
+
+}
+
+#b{
+    grid-area: b;
+    background-image: url(b.webp);
+    background-size: cover;
+}
+
+#c{
+   grid-area: c;
+   background-image: url(c.jpg);
+   background-size: cover;
+   border-top-right-radius: 40px;
+}
+
+#d{
+   grid-area: d;
+   background-image: url(d.jpg);
+   background-size: cover;
+}
+
+#e{
+   grid-area: e;
+   background-image: url(e.jpg);
+   background-size: cover;
+}
+
+#f{
+  grid-area: f;
+  background-image: url(f.jpg);
+  background-size: cover;
+}
+
+
+#g{
+  grid-area: g;
+  background-image: url(g.webp);
+  background-size: cover;
+}
+
+#h{
+  grid-area: h;
+  background-image: url(h.jpg);
+  background-size: cover;
+  border-bottom-right-radius: 40px;
+}
+
+#i{
+  grid-area: i;
+  background-image: url(i.jpg);
+  background-size: cover;
+}
+
+
+#j{
+  grid-area: j;
+  background-image: url(j.jpg);
+  background-size: cover;
+}
+
+#txt{
+    grid-area: txt;
+    color: black;
+    font-size: 50px;
+    padding: 20px;
+    font-style: italic;
+
+}

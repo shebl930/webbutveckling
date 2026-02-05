@@ -1,0 +1,51 @@
+body{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-areas: 
+"heat heat usual usual"
+"inside rififi rififi bankjob"
+;
+
+height: 100vh;
+}
+
+#heat{
+grid-area: heat;
+background: url(heat.jpg);
+background-size: cover;
+
+
+}
+#usual{
+grid-area: usual;
+background: url(usualsuspects.jpg);
+background-size: cover;
+}
+
+
+#inside{
+grid-area: inside;
+background: url(insideman.jpg);
+background: cover;
+
+}
+
+#rififi{
+grid-area: rififi;
+background: url(rififi.jpg);
+background-size: cover;
+
+
+}
+
+#bankjob{
+grid-area: bankjob;
+background: url(bankjob.jpg);
+background-size: cover;
+
+}
+
+h2{
+    color: blue;
+    font-size: 40px;
+}

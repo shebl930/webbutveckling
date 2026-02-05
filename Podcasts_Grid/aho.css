@@ -1,0 +1,26 @@
+article{
+
+
+
+}
+
+
+#img{
+grid-area: img;
+background-image: url(moonlanding.webp);
+background-size: cover;
+
+}
+
+
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+grid-template-areas: 
+"img . . "
+"bigtext . ."
+"text . .";
+
+
+
+}
